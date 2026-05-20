@@ -1,0 +1,24 @@
+{
+  "name": "qazando-qa-automation-bootcamp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fernandamscabral/qazando-qa-automation-bootcamp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/fernandamscabral/qazando-qa-automation-bootcamp/issues"
+  },
+  "homepage": "https://github.com/fernandamscabral/qazando-qa-automation-bootcamp#readme",
+  "dependencies": {
+    "cypress": "^15.15.0"
+  }
+}
