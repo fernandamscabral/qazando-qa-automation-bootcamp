@@ -1,0 +1,90 @@
+{
+  "info": {
+    "_postman_id": "3acc45aa-dc6a-457f-b568-dce1c5a4f77c",
+    "name": "API - Bootcamp Automation",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "55130389",
+    "_collection_link": "https://go.postman.co/collection/55130389-3acc45aa-dc6a-457f-b568-dce1c5a4f77c?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "Buscar dispositivos",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.restful-api.dev/objects",
+          "protocol": "https",
+          "host": [
+            "api",
+            "restful-api",
+            "dev"
+          ],
+          "path": [
+            "objects"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Buscar dispositivo especifico",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.restful-api.dev/objects/1",
+          "protocol": "https",
+          "host": [
+            "api",
+            "restful-api",
+            "dev"
+          ],
+          "path": [
+            "objects",
+            "1"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Adicionar dispositivo",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"name\": \"Celular QAzando Pró\",\n  \"data\": {\n    \"year\": 2026,\n    \"price\": 1849.99,\n    \"CPU model\": \"Intel Core i9\",\n    \"Hard disk size\": \"1 TB\"\n  }\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://api.restful-api.dev/objects",
+          "protocol": "https",
+          "host": [
+            "api",
+            "restful-api",
+            "dev"
+          ],
+          "path": [
+            "objects"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
